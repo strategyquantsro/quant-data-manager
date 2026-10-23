@@ -8,7 +8,7 @@ This repository hosts the **public modules and integrations** that extend Quant 
 
 - Product page: <https://strategyquant.com/quantdatamanager/>
 - Download: <https://strategyquant.com/quantdatamanager/download/>
-- Documentation: <https://strategyquant.com/doc/quantdatamanager/introduction-to-qdm/>
+- Documentation: <https://strategyquant.com/doc/category/quantdatamanager/>
 
 ## Modules
 
@@ -56,7 +56,7 @@ quant-data-manager/
 
 ## Support
 
-- Documentation: <https://strategyquant.com/doc/quantdatamanager/>
+- Documentation: <https://strategyquant.com/doc/category/quantdatamanager/>
 - FAQ: <https://strategyquant.com/faq/>
 - Community and support: <https://strategyquant.com/>
 
