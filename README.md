@@ -29,7 +29,7 @@ SqCOT brings weekly CFTC Commitments of Traders reports into MetaTrader 5 so you
 - `Include/SqCOTBlocks.mqh`, `SqCOTStrategy.mqh` — StrategyQuant adapter.
 - `Examples/` — non-trading example EAs and scripts.
 
-Start with the [SqCOT README](SqCOT/README.md) and the [HTML installation and developer guide](SqCOT/docs/index.html). The folder contains both MQL5 sources and compiled `.ex5` binaries; `SHA256SUMS.txt` and `BUILDINFO.json` describe the release build.
+Start with the [SqCOT README](SqCOT/README.md) and the [HTML installation and developer guide](https://strategyquantsro.github.io/quant-data-manager/SqCOT/docs/). The folder contains both MQL5 sources and compiled `.ex5` binaries; `SHA256SUMS.txt` and `BUILDINFO.json` describe the release build.
 
 ### Quick start
 
