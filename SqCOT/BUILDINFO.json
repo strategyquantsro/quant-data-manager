@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "version": "4.2.5",
+  "revision": "e1704b6641f0478b5ff9d89ddbb81c529ea0999e",
+  "sourceHash": "c853f1a745f87a5c37e37c70fbcfddd05ef6a3b37d69c60552ab3f2a1c42e9dd",
+  "compilerHash": "cf2750bde55d98a1f3b4e56bcdd4f59300d0cff5caa6760985f7ef2c2cc12229",
+  "targets": [
+    {
+      "source": "Examples/SqCOTAutoLatest.mq5",
+      "binary": "Examples/SqCOTAutoLatest.ex5",
+      "destination": "MQL5/Experts/Examples/SqCOT/SqCOTAutoLatest.ex5",
+      "sha256": "9fd97bbe0974c222d323b042f8cd8219e6b7d5e5294d55e197a20079d08a71c4"
+    },
+    {
+      "source": "Examples/SqCOTEvents.mq5",
+      "binary": "Examples/SqCOTEvents.ex5",
+      "destination": "MQL5/Experts/Examples/SqCOT/SqCOTEvents.ex5",
+      "sha256": "d0cd8cebbf03861b9584b3eef3d0d64790058325376360310926bfb85139ba2e"
+    },
+    {
+      "source": "Examples/SqCOTExportSnapshot.mq5",
+      "binary": "Examples/SqCOTExportSnapshot.ex5",
+      "destination": "MQL5/Scripts/SqCOTExportSnapshot.ex5",
+      "sha256": "3134dd96810625014375f0d334ec08923f61929261c4a07a87e9158ca2a077a1"
+    },
+    {
+      "source": "Examples/SqCOTLatest.mq5",
+      "binary": "Examples/SqCOTLatest.ex5",
+      "destination": "MQL5/Experts/Examples/SqCOT/SqCOTLatest.ex5",
+      "sha256": "3bc30c041a7039240c1f32ce4fb7ca4bb23fdece3ca0a98942d8a547e5e9e045"
+    },
+    {
+      "source": "Examples/SqCOTPortfolio.mq5",
+      "binary": "Examples/SqCOTPortfolio.ex5",
+      "destination": "MQL5/Experts/Examples/SqCOT/SqCOTPortfolio.ex5",
+      "sha256": "524c870e6212d7448a54627a8aacce769b801c756645d34734c83808b607cea0"
+    },
+    {
+      "source": "Examples/SqCOTReadBuffers.mq5",
+      "binary": "Examples/SqCOTReadBuffers.ex5",
+      "destination": "MQL5/Experts/Examples/SqCOT/SqCOTReadBuffers.ex5",
+      "sha256": "7a91887751baf5c7ac931ce46ca3986f3c51ea1351ab177399534363368e587e"
+    },
+    {
+      "source": "Examples/SqCOTStrategyBlocks.mq5",
+      "binary": "Examples/SqCOTStrategyBlocks.ex5",
+      "destination": "MQL5/Experts/Examples/SqCOT/SqCOTStrategyBlocks.ex5",
+      "sha256": "ecd6e0d9c9c188048f87510f0a8f6f7652a803182eb6199b401fc838c00ff781"
+    },
+    {
+      "source": "Indicators/SqCOT.mq5",
+      "binary": "Indicators/SqCOT.ex5",
+      "destination": "MQL5/Indicators/SqCOT.ex5",
+      "sha256": "97ca76bf9962596a7ef50f2a19b9bf957efcdd38ec276a2080a2fae205c0ab2a"
+    },
+    {
+      "source": "Indicators/SqCOTAuto.mq5",
+      "binary": "Indicators/SqCOTAuto.ex5",
+      "destination": "MQL5/Indicators/SqCOTAuto.ex5",
+      "sha256": "53a8d1f17205b900ab4a7bdfa5afa31d3cbd84bec4221dae8c384c1a5295ef0b"
+    },
+    {
+      "source": "Indicators/SqCOTData.mq5",
+      "binary": "Indicators/SqCOTData.ex5",
+      "destination": "MQL5/Indicators/SqCOTData.ex5",
+      "sha256": "006652eaabed17e246c6edbd0076dc2259ff7f1882a3a79ae4fa4c65cb7e1b00"
+    },
+    {
+      "source": "Services/SqCOTService.mq5",
+      "binary": "Services/SqCOTService.ex5",
+      "destination": "MQL5/Services/SqCOTService.ex5",
+      "sha256": "82701e74659eedbd0258d4724b17ed64142c288b08eb6002905d0f838e00dab9"
+    }
+  ]
+}

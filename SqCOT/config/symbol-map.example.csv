@@ -1,0 +1,14 @@
+schema;market_id;display_name;broker_server;aliases_direct;aliases_inverse;enabled;note
+1;GC;Gold;*;XAUUSD|GOLD;;1;Gold priced in USD
+1;SI;Silver;*;XAGUSD|SILVER;;1;Silver priced in USD
+1;6E;Euro;*;EURUSD;;1;
+1;6B;British pound;*;GBPUSD;;1;
+1;6A;Australian dollar;*;AUDUSD;;1;
+1;6N;New Zealand dollar;*;NZDUSD;;1;
+1;6J;Japanese yen;*;;USDJPY;1;Inverse quote - raw COT values unchanged
+1;6C;Canadian dollar;*;;USDCAD;1;Inverse quote
+1;6S;Swiss franc;*;;USDCHF;1;Inverse quote
+1;ES;S&P 500;*;US500|SPX500;;1;Verify broker contract specification
+1;NQ;Nasdaq 100;*;NAS100|USTEC;;1;Verify broker contract specification
+1;YM;Dow Jones;*;US30;;1;Verify broker contract specification
+1;CL;WTI crude oil;*;WTI|XTIUSD;;1;Not Brent

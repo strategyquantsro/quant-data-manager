@@ -1,0 +1,56 @@
+{
+  "title": "SqCOT symbol-map.csv schema 1",
+  "encoding": "UTF-8 (optional BOM)",
+  "delimiter": ";",
+  "quote": "\"",
+  "max_bytes": 262144,
+  "max_cell_characters": 4096,
+  "max_records_including_header": 8192,
+  "columns": [
+    {
+      "name": "schema",
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "name": "market_id",
+      "pattern": "^[A-Z0-9_-]{1,100}$"
+    },
+    {
+      "name": "display_name",
+      "required": true
+    },
+    {
+      "name": "broker_server",
+      "description": "Exact MT5 server, or * for global scope"
+    },
+    {
+      "name": "aliases_direct",
+      "description": "Exact case-insensitive CFD aliases separated by |; may be empty"
+    },
+    {
+      "name": "aliases_inverse",
+      "description": "Exact aliases with inverse quote orientation; raw values unchanged"
+    },
+    {
+      "name": "enabled",
+      "values": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "name": "note",
+      "description": "Free text; quote semicolons, newlines and double quotes using CSV rules"
+    }
+  ],
+  "constraints": [
+    "Unique market_id + broker_server",
+    "Each alias unique within a server across both orientations and all markets",
+    "No wildcard aliases",
+    "Broker alias overrides global alias; disabled matching broker alias blocks fallback"
+  ],
+  "runtime_path": "FILE_COMMON/StrategyQuant/COT/config/symbol-map.csv",
+  "installation": "Reference only. Service creates the runtime CSV; do not overwrite existing custom configuration."
+}
