@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SqCOT documentation
+    url: https://strategyquantsro.github.io/quant-data-manager/SqCOT/docs/
+    about: Installation, scheduled downloads, MQL5 SDK, iCustom buffers and backtesting.
+  - name: Quant Data Manager documentation
+    url: https://strategyquant.com/doc/category/quantdatamanager/
+    about: Product documentation for Quant Data Manager.
+  - name: StrategyQuant forum
+    url: https://strategyquant.com/forum/
+    about: Usage questions and discussion with other users.
+  - name: StrategyQuant support
+    url: https://strategyquant.com/support/
+    about: Licence and account questions, and anything that should not be public.

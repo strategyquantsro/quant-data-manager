@@ -1,0 +1,26 @@
+name: Verify checksums
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compiled binaries are not committed
+        run: |
+          if git ls-files -- '*.ex5' '*.ex4' | grep .; then
+            echo "::error::Compiled MetaTrader binaries belong in GitHub Releases, not in git."
+            exit 1
+          fi
+
+      - name: Verify SqCOT/SHA256SUMS.txt
+        run: scripts/checksums.sh verify SqCOT
