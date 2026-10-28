@@ -15,6 +15,16 @@ The compact **Markets / Summary / Events / Guide** accordion, optional horizon c
 
 **Start here: [HTML installation and developer guide](docs/index.html).**
 
+## Download
+
+Compiled `.ex5` binaries are not stored in this Git repository. Download `SqCOT-4.2.5-mt5.zip` from [GitHub Releases](https://github.com/strategyquantsro/quant-data-manager/releases/tag/v4.2.5). The archive contains this module folder with the ready-to-copy `MQL5` tree including the binaries, `BUILDINFO.json` and `SHA256SUMS.txt`.
+
+- Verify the archive against the `SqCOT-4.2.5-mt5.zip.sha256` file published next to it.
+- Verify the extracted files with `sha256sum -c SHA256SUMS.txt`.
+- `BUILDINFO.json` records the SHA-256 of every compiled binary together with the source revision it was built from.
+
+To build from source instead, open the `.mq5` files under `MQL5/` in MetaEditor and compile them. The sources in this repository are the ones the release was built from.
+
 ## Quick start
 
 1. In MT5, open **File → Open Data Folder**. Copy the release package's `MQL5` folder into the terminal data directory.

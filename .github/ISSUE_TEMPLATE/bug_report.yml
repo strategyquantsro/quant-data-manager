@@ -1,0 +1,78 @@
+name: Bug report
+description: A module does not behave as documented
+title: "[SqCOT] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Before you post, remove your **QDM Data License** key and any account details from logs and screenshots.
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module
+      options:
+        - SqCOT (MetaTrader 5)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Module version
+      description: From the service startup log or `BUILDINFO.json`.
+      placeholder: "4.2.5"
+    validations:
+      required: true
+  - type: input
+    id: mt5
+    attributes:
+      label: MetaTrader 5 build
+      description: Help > About in the terminal.
+      placeholder: "e.g. 4620"
+    validations:
+      required: true
+  - type: input
+    id: broker
+    attributes:
+      label: Broker / trade server
+      placeholder: "e.g. PepperstoneUK-Demo"
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11, Windows Server 2022, Wine on Linux, ..."
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start SqCOTService with ...
+        2. Attach SqCOT to ...
+        3. ...
+  - type: textarea
+    id: log
+    attributes:
+      label: Service log
+      description: Relevant lines from the Experts / Journal tab or the SqCOTService log. Remove your licence key.
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag and drop images here.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I removed my licence key and personal data from logs and screenshots.
+          required: true
+        - label: I searched existing issues and the documentation.
+          required: true

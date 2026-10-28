@@ -1,2 +1,11 @@
+# Normalize line endings: text files are stored and checked out with LF on every
+# platform so that SHA256SUMS.txt verifies identically on Windows, macOS and CI.
+* text=auto eol=lf
+
+# Compiled MetaTrader binaries and images
 *.ex5 binary
+*.ex4 binary
 *.png binary
+*.jpg binary
+*.gif binary
+*.zip binary

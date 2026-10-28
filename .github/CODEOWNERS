@@ -1,0 +1,5 @@
+# Code owners are requested for review automatically on every pull request
+# that touches the matching paths. Later rules take precedence.
+*            @tamastakacs11
+/SqCOT/      @tamastakacs11
+/.github/    @tamastakacs11

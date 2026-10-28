@@ -1,0 +1,13 @@
+# Compiled MetaTrader programs are published in GitHub Releases, not in git.
+*.ex5
+*.ex4
+
+# Local build and packaging output
+/dist/
+*.zip
+
+# Editors and OS noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

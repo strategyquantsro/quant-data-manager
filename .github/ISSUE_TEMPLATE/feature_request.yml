@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an improvement to a module
+title: "[SqCOT] "
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module
+      options:
+        - SqCOT (MetaTrader 5)
+        - New module
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do that is hard or impossible today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How should it work? Mention inputs, buffers or SDK calls if relevant.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
